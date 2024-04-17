@@ -1,0 +1,16 @@
+{
+  "services": {
+    "api-mongo": {
+      "container_name": "api-mongo",
+      "image": "mongo:7.0.8",
+      "ports": [ "27017:27017" ],
+      "volumes": [ "../database:/srv/database" ]
+    },
+    "site-server": {
+      "container_name": "api-server",
+      "image": "api-image",
+      "ports": [ "9091:3000" ],
+      "volumes": [ "../api:/srv/api" ]
+    }
+  }
+}
