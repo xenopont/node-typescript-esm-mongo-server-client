@@ -2,7 +2,7 @@ FROM node:20.12-alpine3.18
 
 RUN apk update
 
-WORKDIR /srv/server
+WORKDIR /srv/api
 
 ENV ENV="/root/.ashrc"
 ENV NODE_ENV="development"

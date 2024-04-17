@@ -1,2 +1,14 @@
-.idea
+!.gitignore
+.idea/
 node_modules
+.DS_Store
+.vs/
+npm-debug.log
+.vscode
+.cache
+
+api/dist/*
+!api/dist/.gitkeep
+
+database/*
+!database/.gitkeep

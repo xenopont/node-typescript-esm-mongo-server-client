@@ -6,7 +6,7 @@
       "ports": [ "27017:27017" ],
       "volumes": [ "../database:/srv/database" ]
     },
-    "site-server": {
+    "api-server": {
       "container_name": "api-server",
       "image": "api-image",
       "ports": [ "9091:3000" ],

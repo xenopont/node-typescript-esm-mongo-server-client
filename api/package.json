@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API server",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xenopont/node-typescript-esm-mongo-server-client.git"
+  },
+  "keywords": [
+    "typescript",
+    "esm",
+    "node",
+    "nodejs",
+    "docker",
+    "mongo",
+    "api",
+    "server",
+    "client"
+  ],
+  "author": "Sergei Kovalenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xenopont/node-typescript-esm-mongo-server-client/issues"
+  },
+  "homepage": "https://github.com/xenopont/node-typescript-esm-mongo-server-client#readme",
+  "devDependencies": {
+    "eslint": "9.0.0",
+    "nodemon": "3.1.0",
+    "prettier": "3.2.5",
+    "typescript": "5.4.5"
+  }
+}
