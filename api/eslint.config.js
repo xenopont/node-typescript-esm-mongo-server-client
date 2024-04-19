@@ -14,7 +14,7 @@ const compat = new FlatCompat({
 });
 
 export default [
-  { languageOptions: { globals: globals.browser } },
+  { languageOptions: { globals: globals.node } },
   ...compat.extends("standard-with-typescript"),
   {
     rules: {
