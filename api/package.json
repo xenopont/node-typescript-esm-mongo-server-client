@@ -30,24 +30,15 @@
   },
   "homepage": "https://github.com/xenopont/node-typescript-esm-mongo-server-client#readme",
   "devDependencies": {
-    "@eslint/eslintrc": "3.0.2",
-    "@eslint/js": "9.0.0",
     "@types/express": "4.17.21",
-    "@types/mongodb": "4.0.7",
-    "@types/node": "20.12.7",
-    "@typescript-eslint/eslint-plugin": "6.21.0",
-    "eslint": "8.57.0",
-    "eslint-config-standard-with-typescript": "43.0.1",
-    "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-n": "16.6.2",
-    "eslint-plugin-promise": "6.1.1",
-    "globals": "15.0.0",
-    "nodemon": "3.1.0",
-    "prettier": "3.2.5",
-    "typescript": "5.4.5"
+    "@types/node": "20.14.11",
+    "globals": "15.8.0",
+    "nodemon": "3.1.4",
+    "prettier": "3.3.3",
+    "typescript": "5.5.3"
   },
   "dependencies": {
     "express": "4.19.2",
-    "pino": "8.20.0"
+    "pino": "9.3.1"
   }
 }

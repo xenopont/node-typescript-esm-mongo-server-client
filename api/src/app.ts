@@ -7,3 +7,8 @@ const main = async (): Promise<void> => {
 main().catch((error: Error) => {
   logger.error(error);
 });
+
+export function not_prettyFunction() {
+  console.log(2);
+  const arr = [1, 23, 4];
+}
